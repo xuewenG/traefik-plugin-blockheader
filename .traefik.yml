@@ -1,0 +1,12 @@
+displayName: Block Header
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/xuewenG/traefik-plugin-blockheader
+
+summary: 'Block Header'
+
+testData:
+  rules:
+    - name: User-Agent
+      reg: test-agent
